@@ -1,5 +1,9 @@
 body {
-    background-image: url("https://images.alphacoders.com/105/1057667.jpg");
+    /* background-image: url(https://images.alphacoders.com/105/1057667.jpg); */
+
+    /* this wallpaper is from wallpaperaccess.com */
+    background-image: url(https://wallpaperaccess.com/full/454196.jpg);
+    background-size: cover;
 }
 
 #image {
@@ -9,7 +13,19 @@ body {
     position: relative;
     width: 500px;
     height: auto;
-    opacity: 0.5;
+    opacity: 0.8;
+    border-radius: 10px;
+    max-width: 50%;
+}
+
+#image2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: sticky;
+    width: 500px;
+    height: auto;
+    opacity: 1;
     border-radius: 10px;
     max-width: 50%;
 }
@@ -43,3 +59,22 @@ body {
 .wikipedia {
     color: red;
 }
+
+/* just ttrying things out */
+#overlapthis {
+    background-image:url("mymessage.gif");
+    height:100px;
+    left:50px; /* play around with this */
+    position:absolute;
+    top:90px; /* and play around with this */
+    width:500px;
+}
+
+#thebigimage {
+    background-image:url("bread_wine.jpg");
+    height:548px;
+    margin-left:auto;
+    margin-right:auto;
+    position:relative; /* and this has to be relative */
+    width:731px;
+} 
